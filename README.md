@@ -337,35 +337,35 @@ The pipeline uses GitHub Actions, defined in  `.github/workflows/cicd.yml`. It i
 
 ![](images/cicd.png)
 
-**params**
+**[params](https://github.com/RasaHQ/financial-demo/blob/d40467b4fb2a7d4fb072b86a2828a8cec662eb63/.github/workflows/cicd.yml#L26)**
 
 - Defines parameters for use by downstream jobs
 
-**params_summary**
+**[params_summary](https://github.com/RasaHQ/financial-demo/blob/d40467b4fb2a7d4fb072b86a2828a8cec662eb63/.github/workflows/cicd.yml#L125)**
 
 - Prints the value of the parameters.
 
-**action_server**
+**[action_server](https://github.com/RasaHQ/financial-demo/blob/d40467b4fb2a7d4fb072b86a2828a8cec662eb63/.github/workflows/cicd.yml#L156)**
 
 - Builds & Tests the docker image of the action server with tag: `<branch-name>`
 - Uploads the docker image to the AWS ECR repository: `financial-demo`
 
-**rasa_model**
+**[rasa_model](https://github.com/RasaHQ/financial-demo/blob/d40467b4fb2a7d4fb072b86a2828a8cec662eb63/.github/workflows/cicd.yml#L203)**
 
 - Trains & Tests the rasa model with name: `models/<branch-name>.tar.gz
 - Uploads the trained model to the AWS S3 bucket: `rasa-financial-demo` 
 
-**aws_eks_create_test_cluster**
+**[aws_eks_create_test_cluster](https://github.com/RasaHQ/financial-demo/blob/d40467b4fb2a7d4fb072b86a2828a8cec662eb63/.github/workflows/cicd.yml#L242)**
 
 - If not existing yet, create an AWS EKS cluster with name: `financial-demo-<branch-name>`
 
-**deploy_to_test_cluster**
+**[deploy_to_test_cluster](https://github.com/RasaHQ/financial-demo/blob/d40467b4fb2a7d4fb072b86a2828a8cec662eb63/.github/workflows/cicd.yml#L266)**
 
 - Installs/Updates Rasa Enterprise, with the docker image created by the **action_server** job.
 - Deploys the rasa model, trained by the **rasa_model** job.
 - Performs smoke tests to ensure basic operation is all OK.
 
-**deploy_to_prod_cluster**
+**[deploy_to_prod_cluster](https://github.com/RasaHQ/financial-demo/blob/d40467b4fb2a7d4fb072b86a2828a8cec662eb63/.github/workflows/cicd.yml#L353)**
 
 - Runs when pushing to the `main` branch, and all previous steps are successful.
 - Installs/Updates Rasa Enterprise, with the docker image created by the **action_server** job.
