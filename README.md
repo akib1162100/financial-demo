@@ -378,7 +378,7 @@ The pipeline uses GitHub Actions, defined in  `.github/workflows/cicd.yml`. It i
 
 Secrets can be added to your GitHub repository by going to `Settings > Secrets` and selecting `New repository secret`. 
 
-When entering the value, do not use quotes.
+When entering values, be sure to omit quotes.
 
 #### AWS IAM User API Keys:
 
