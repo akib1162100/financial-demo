@@ -537,7 +537,7 @@ make install-eksctl
 
 See the [installation instructions](https://kubernetes.io/docs/tasks/tools/#kubectl)
 
-If you use Ubuntu, you can just issue the command:
+If you use Ubuntu, you can issue the command:
 
 ```bash
 make install-kubectl
