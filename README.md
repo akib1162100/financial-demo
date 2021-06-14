@@ -293,7 +293,7 @@ As part of the deployment, you'll need to set up [git integration](https://rasa.
 
 You will need to have docker installed in order to build the action server image. If you haven't made any changes to the action code, you can also use the [public image on Dockerhub](https://hub.docker.com/r/rasa/financial-demo) instead of building it yourself.
 
-Build & tag the image:
+To build & tag the image, run:
 
 ```bash
 export ACTION_SERVER_DOCKERPATH=<dockerID>/<name-of-image>:<tag-of-image>
