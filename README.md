@@ -382,7 +382,7 @@ When entering the value, do not use quotes.
 
 #### AWS IAM User API Keys:
 
-To allow the GitHub actions to configure the aws cli, create IAM User API Keys as described below, and add them as GitHub Secrets to the repo:
+To configure the aws cli in Github Actions, create IAM User API Keys as described below, and add them as GitHub secrets to the repository:
 
 - AWS_ACCESS_KEY_ID = `Access key ID`
 - AWS_SECRET_ACCESS_KEY = `Secret access key` 
