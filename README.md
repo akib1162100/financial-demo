@@ -395,7 +395,7 @@ Create an Elastic IP as described below, and add it as a GitHub Secret to the re
 
 #### Rasa Enterprise License:
 
-To allow the GitHub actions to define a pull secret for the private GCR repo, get the private values from your Rasa Enterprise license file ([docs](https://rasa.com/docs/rasa-x/installation-and-setup/install/helm-chart#5-configure-rasa-x-image)) and add them as GitHub Secrets to the repo:
+To define a pull secret in Github Actions for the private GCR repo, you'll need to retrieve the private values from your Rasa Enterprise license file ([docs](https://rasa.com/docs/rasa-x/installation-and-setup/install/helm-chart#5-configure-rasa-x-image)) and add them as GitHub secrets to the repository:
 
 - GCR_AUTH_JSON_PRIVATE_KEY_ID = `private_key_id`
 - GCR_AUTH_JSON_PRIVATE_KEY = `private_key`
