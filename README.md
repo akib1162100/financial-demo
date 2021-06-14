@@ -786,7 +786,7 @@ The EKS Control Plane interacts with the the EKS Data Plane (the nodes), like th
 
 ## Appendix B: Manual Cleanup of AWS resources
 
-Sometimes things do not clean up properly, and you need to do a manual cleanup in the **AWS console**:
+Sometimes things do not clean up properly and you will need to do a manual cleanup in the **AWS console**:
 
 - **CloudFormation**: Try to delete all the stacks in reverse order as they were created by the eksctl command.
 
