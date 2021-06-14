@@ -788,7 +788,7 @@ The EKS Control Plane interacts with the the EKS Data Plane (the nodes), like th
 
 Sometimes things do not clean up properly and you will need to do a manual cleanup in the **AWS console**:
 
-- **CloudFormation**: Try to delete all the stacks in reverse order as they were created by the eksctl command.
+**CloudFormation**: Try to delete all the stacks in reverse order as they were created by the eksctl command.
 
 - When a stack fails to delete due to dependencies, you have two options:
 
