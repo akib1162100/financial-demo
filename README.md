@@ -376,7 +376,7 @@ The pipeline uses GitHub Actions, defined in  `.github/workflows/cicd.yml`. It i
 
 ## GitHub Secrets
 
-In your GitHub repository, go to `Settings > Secrets`, and add these `New repository secrets` . 
+Secrets can be added to your GitHub repository by going to `Settings > Secrets` and selecting `New repository secret`. 
 
 When entering the value, do not use quotes.
 
