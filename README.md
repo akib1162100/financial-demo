@@ -557,7 +557,7 @@ make install-helm
 
 See the [installation instructions](https://github.com/jmespath/jp#installing)
 
-If you use Ubuntu, you can just issue the command:
+If you use Ubuntu, you can issue the command:
 
 ```bash
 make install-jp
