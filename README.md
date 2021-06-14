@@ -547,7 +547,7 @@ make install-kubectl
 
 See the [installation instructions](https://helm.sh/docs/intro/install/)
 
-If you use Ubuntu, you can just issue the command:
+If you use Ubuntu, you can issue the command:
 
 ```bash
 make install-helm
