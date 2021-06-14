@@ -790,7 +790,7 @@ Sometimes things do not clean up properly and you will need to do a manual clean
 
 **CloudFormation**: Try to delete all the stacks in reverse order as they were created by the eksctl command.
 
-- When a stack fails to delete due to dependencies, you have two options:
+When a stack fails to delete due to dependencies, you have two options:
 
   - Select to retain the resources that have dependency errors. (**NOT RECOMMENDED**)
 
