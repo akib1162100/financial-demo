@@ -406,7 +406,7 @@ An alternative approach to GCR repo authentication would be with the [gcloud cre
 
 #### Helm chart Credentials
 
-To allow the GitHub actions to use safe_credentials in the `values.yml` ([docs](https://rasa.com/docs/rasa-x/installation-and-setup/install/helm-chart#3-configure-credentials)), add following GitHub Secrets to the repo, replacing each `<safe credential>` with a different alphanumeric string, and choose a `<username>` for the initial user. 
+To use safe_credentials in Github Actions through `values.yml` ([docs](https://rasa.com/docs/rasa-x/installation-and-setup/install/helm-chart#3-configure-credentials)), add following GitHub Secrets to the repo, replacing each `<safe credential>` with a different alphanumeric string and choosing a `<username>` for the initial user. 
 
 *(Please use **safe credentials** to avoid data breaches)*
 
