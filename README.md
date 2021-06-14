@@ -312,7 +312,7 @@ Perform a smoke test on the health endpoint:
 make docker-test
 ```
 
-Once you have confirmed that the container works as it should, push the container image to a registry:
+Once you have confirmed that the container is working, push the container image to a registry:
 
 ```bash
 # login to a container registry with your credentials
