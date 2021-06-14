@@ -357,7 +357,7 @@ The pipeline uses GitHub Actions, defined in  `.github/workflows/cicd.yml`. It i
 
 **[aws_eks_create_test_cluster](https://github.com/RasaHQ/financial-demo/blob/d40467b4fb2a7d4fb072b86a2828a8cec662eb63/.github/workflows/cicd.yml#L242)**
 
-- If not existing yet, create an AWS EKS cluster with name: `financial-demo-<branch-name>`
+- If not existing yet, creates an AWS EKS cluster with name: `financial-demo-<branch-name>`
 
 **[deploy_to_test_cluster](https://github.com/RasaHQ/financial-demo/blob/d40467b4fb2a7d4fb072b86a2828a8cec662eb63/.github/workflows/cicd.yml#L266)**
 
