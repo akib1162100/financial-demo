@@ -434,7 +434,7 @@ The CI/CD pipeline uses the [aws cli](https://docs.aws.amazon.com/cli/latest/use
 
 The [aws cli](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html#cliv2-linux-install) needs a set of IAM User API keys for authentication & authorization:
 
-- In your AWS Console, go to IAM dashboard to create a new set of API keys:
+In your AWS Console, go to the IAM dashboard to create a new set of API keys:
 
   - Click on Users
 
