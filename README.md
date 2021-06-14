@@ -527,7 +527,7 @@ This initial deployment is done manually. After that, the deployment is maintain
 
 See the [installation instructions](https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html)
 
-If you use Ubuntu, you can just issue the command:
+If you use Ubuntu, you can issue the command:
 
 ```bash
 make install-eksctl
