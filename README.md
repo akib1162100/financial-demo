@@ -461,7 +461,7 @@ In your AWS Console, go to the IAM dashboard to create a new set of API keys:
 
 ### SSH Key Pair
 
-To be able to SSH into the EC2 worker nodes of the EKS cluster, you need an SSH Key Pair
+To SSH into the EC2 worker nodes of the EKS cluster, you'll need an SSH Key Pair
 
 - In your AWS Console, go to **EC2 > Key Pairs**, and create a Key Pair with the name `findemo`, and download the file `findemo.pem` which contains the private SSH key. 
   **Note that the name `findemo` is important, since it is used by the CI/CD pipeline when the cluster is created.**
