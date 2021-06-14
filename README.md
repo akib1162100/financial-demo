@@ -468,7 +468,7 @@ To SSH into the EC2 worker nodes of the EKS cluster, you'll need an SSH Key Pair
 
 ### Local AWS CLI
 
-Before the CI/CD pipeline can run, you will use the AWS CLI locally to create some items, so also install & configure the CLI locally.
+Before the CI/CD pipeline can run, you will use the AWS CLI locally to create some resources and need to install & configure the CLI locally.
 
 #### Install AWS CLI v2
 
