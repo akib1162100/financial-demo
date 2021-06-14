@@ -523,6 +523,8 @@ This initial deployment is done manually. After that, the deployment is maintain
 
 ### Preparation
 
+Before you can create the EKS cluster, you must install  `eksctl`, `kubectl`, `helm`, `jp`, and define some environment variables.
+
 #### Install eksctl
 
 See the [installation instructions](https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html)
@@ -717,7 +719,7 @@ make rasa-enterprise-smoketest
 
 ### DNS
 
-Define a DNS record of type CNAME with your domain service provider:
+Optionally, if you want to access Rasa Enterprise at your own (sub)-domain name, define a DNS record of type CNAME with your domain service provider:
 
 - **name of sub-domain**:  `aws-financial-demo`  
 
