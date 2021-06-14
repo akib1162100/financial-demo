@@ -363,7 +363,7 @@ The pipeline uses GitHub Actions, defined in  `.github/workflows/cicd.yml`. It i
 
 - Installs/Updates Rasa Enterprise, with the docker image created by the **action_server** job.
 - Deploys the rasa model, trained by the **rasa_model** job.
-- Performs smoke tests to ensure basic operation is all OK.
+- Performs smoke tests to ensure basic operations are all OK.
 
 **[deploy_to_prod_cluster](https://github.com/RasaHQ/financial-demo/blob/d40467b4fb2a7d4fb072b86a2828a8cec662eb63/.github/workflows/cicd.yml#L353)**
 
